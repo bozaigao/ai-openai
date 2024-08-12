@@ -546,7 +546,7 @@ var OpenAIChatLanguageModel = class {
       rawResponse: { headers: responseHeaders },
       warnings
     };
-    console.log("\u{1F601}", JSON.stringify(response));
+    console.log("\u{1F601}", response);
     return result;
   }
 };

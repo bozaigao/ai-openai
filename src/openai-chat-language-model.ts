@@ -526,7 +526,7 @@ export class OpenAIChatLanguageModel implements LanguageModelV1 {
       rawResponse: { headers: responseHeaders },
       warnings,
     };
-    console.log('😁',JSON.stringify(response));
+    console.log('😁',response);
     return result;
   }
 }
