@@ -322,6 +322,8 @@ export class OpenAIChatLanguageModel implements LanguageModelV1 {
       fetch: this.config.fetch,
     });
 
+    console.log('😁prompt', response);
+
     const { messages: rawPrompt, ...rawSettings } = args;
 
     const toolCalls: Array<{

@@ -416,6 +416,7 @@ var OpenAIChatLanguageModel = class {
       abortSignal: options.abortSignal,
       fetch: this.config.fetch
     });
+    console.log("\u{1F601}prompt", response);
     const { messages: rawPrompt, ...rawSettings } = args;
     const toolCalls = [];
     let finishReason = "other";

@@ -16,23 +16,23 @@
 [34mCLI[39m Target: es2018
 [34mCJS[39m Build start
 [34mESM[39m Build start
-[32mESM[39m [1mdist/index.mjs     [22m[32m39.08 KB[39m
-[32mESM[39m [1mdist/index.mjs.map [22m[32m77.99 KB[39m
-[32mESM[39m ⚡️ Build success in 89ms
-[32mESM[39m [1minternal/dist/index.mjs     [22m[32m35.40 KB[39m
-[32mESM[39m [1minternal/dist/index.mjs.map [22m[32m67.34 KB[39m
-[32mESM[39m ⚡️ Build success in 56ms
-[32mCJS[39m [1minternal/dist/index.js     [22m[32m38.04 KB[39m
-[32mCJS[39m [1minternal/dist/index.js.map [22m[32m67.04 KB[39m
-[32mCJS[39m ⚡️ Build success in 56ms
-[32mCJS[39m [1mdist/index.js     [22m[32m41.65 KB[39m
-[32mCJS[39m [1mdist/index.js.map [22m[32m77.42 KB[39m
-[32mCJS[39m ⚡️ Build success in 91ms
+[32mESM[39m [1minternal/dist/index.mjs     [22m[32m35.49 KB[39m
+[32mESM[39m [1minternal/dist/index.mjs.map [22m[32m67.48 KB[39m
+[32mESM[39m ⚡️ Build success in 40ms
+[32mESM[39m [1mdist/index.mjs     [22m[32m39.18 KB[39m
+[32mESM[39m [1mdist/index.mjs.map [22m[32m78.12 KB[39m
+[32mESM[39m ⚡️ Build success in 49ms
+[32mCJS[39m [1minternal/dist/index.js     [22m[32m38.13 KB[39m
+[32mCJS[39m [1minternal/dist/index.js.map [22m[32m67.18 KB[39m
+[32mCJS[39m ⚡️ Build success in 41ms
+[32mCJS[39m [1mdist/index.js     [22m[32m41.75 KB[39m
+[32mCJS[39m [1mdist/index.js.map [22m[32m77.56 KB[39m
+[32mCJS[39m ⚡️ Build success in 51ms
 [34mDTS[39m Build start
 [34mDTS[39m Build start
-[32mDTS[39m ⚡️ Build success in 3668ms
-[32mDTS[39m [1minternal/dist/index.d.ts  [22m[32m7.85 KB[39m
-[32mDTS[39m [1minternal/dist/index.d.mts [22m[32m7.85 KB[39m
-[32mDTS[39m ⚡️ Build success in 3799ms
+[32mDTS[39m ⚡️ Build success in 3297ms
 [32mDTS[39m [1mdist/index.d.ts  [22m[32m11.00 KB[39m
 [32mDTS[39m [1mdist/index.d.mts [22m[32m11.00 KB[39m
+[32mDTS[39m ⚡️ Build success in 3262ms
+[32mDTS[39m [1minternal/dist/index.d.ts  [22m[32m7.85 KB[39m
+[32mDTS[39m [1minternal/dist/index.d.mts [22m[32m7.85 KB[39m
