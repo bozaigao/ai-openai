@@ -981,6 +981,7 @@ var OpenAICompletionLanguageModel = class {
       completionTokens: Number.NaN
     };
     let logprobs;
+    console.log("\u{1F601}openai", JSON.stringify(response));
     return {
       stream: response.pipeThrough(
         new TransformStream({

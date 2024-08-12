@@ -215,7 +215,6 @@ export class OpenAICompletionLanguageModel implements LanguageModelV1 {
       body: {
         ...args,
         stream: true,
-
         // only include stream_options when in strict compatibility mode:
         stream_options:
           this.config.compatibility === 'strict'
@@ -238,6 +237,8 @@ export class OpenAICompletionLanguageModel implements LanguageModelV1 {
       completionTokens: Number.NaN,
     };
     let logprobs: LanguageModelV1LogProbs;
+
+    console.log('😁openai', JSON.stringify(response));
 
     return {
       stream: response.pipeThrough(
