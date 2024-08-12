@@ -205,6 +205,7 @@ export class OpenAICompletionLanguageModel implements LanguageModelV1 {
     options: Parameters<LanguageModelV1['doStream']>[0],
   ): Promise<Awaited<ReturnType<LanguageModelV1['doStream']>>> {
     const { args, warnings } = this.getArgs(options);
+    console.log('😁doStream', args);
 
     const { responseHeaders, value: response } = await postJsonToApi({
       url: this.config.url({

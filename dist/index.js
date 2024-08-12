@@ -966,6 +966,7 @@ var OpenAICompletionLanguageModel = class {
   }
   async doStream(options) {
     const { args, warnings } = this.getArgs(options);
+    console.log("\u{1F601}doStream", args);
     const { responseHeaders, value: response } = await (0, import_provider_utils4.postJsonToApi)({
       url: this.config.url({
         path: "/completions",
