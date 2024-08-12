@@ -430,6 +430,7 @@ var OpenAIChatLanguageModel = class {
         new TransformStream({
           transform(chunk, controller) {
             var _a, _b, _c, _d, _e, _f, _g, _h, _i, _j, _k, _l;
+            console.log("\u{1F601}chunk", chunk);
             if (!chunk.success) {
               finishReason = "error";
               controller.enqueue({ type: "error", error: chunk.error });

@@ -349,6 +349,7 @@ export class OpenAIChatLanguageModel implements LanguageModelV1 {
           LanguageModelV1StreamPart
         >({
           transform(chunk, controller) {
+            console.log('😁chunk', chunk);
             // handle failed chunk parsing / validation:
             if (!chunk.success) {
               finishReason = 'error';
