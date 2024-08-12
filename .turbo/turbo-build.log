@@ -2,11 +2,11 @@
 > @ai-sdk/openai@0.0.44 build /Users/yanbo.he/Desktop/AI/ai/packages/openai
 > tsup
 
-[34mCLI[39m Building entry: src/index.ts
+[34mCLI[39m Building entry: src/internal/index.ts
 [34mCLI[39m Using tsconfig: tsconfig.json
 [34mCLI[39m tsup v8.2.4
 [34mCLI[39m Using tsup config: /Users/yanbo.he/Desktop/AI/ai/packages/openai/tsup.config.ts
-[34mCLI[39m Building entry: src/internal/index.ts
+[34mCLI[39m Building entry: src/index.ts
 [34mCLI[39m Using tsconfig: tsconfig.json
 [34mCLI[39m tsup v8.2.4
 [34mCLI[39m Using tsup config: /Users/yanbo.he/Desktop/AI/ai/packages/openai/tsup.config.ts
@@ -18,21 +18,21 @@
 [34mESM[39m Build start
 [32mCJS[39m [1mdist/index.js     [22m[32m41.57 KB[39m
 [32mCJS[39m [1mdist/index.js.map [22m[32m77.29 KB[39m
-[32mCJS[39m ⚡️ Build success in 165ms
-[32mESM[39m [1minternal/dist/index.mjs     [22m[32m35.32 KB[39m
-[32mESM[39m [1minternal/dist/index.mjs.map [22m[32m67.21 KB[39m
-[32mESM[39m ⚡️ Build success in 165ms
+[32mCJS[39m ⚡️ Build success in 62ms
 [32mCJS[39m [1minternal/dist/index.js     [22m[32m37.96 KB[39m
 [32mCJS[39m [1minternal/dist/index.js.map [22m[32m66.92 KB[39m
-[32mCJS[39m ⚡️ Build success in 167ms
+[32mCJS[39m ⚡️ Build success in 65ms
 [32mESM[39m [1mdist/index.mjs     [22m[32m39.00 KB[39m
 [32mESM[39m [1mdist/index.mjs.map [22m[32m77.86 KB[39m
-[32mESM[39m ⚡️ Build success in 169ms
+[32mESM[39m ⚡️ Build success in 63ms
+[32mESM[39m [1minternal/dist/index.mjs     [22m[32m35.32 KB[39m
+[32mESM[39m [1minternal/dist/index.mjs.map [22m[32m67.21 KB[39m
+[32mESM[39m ⚡️ Build success in 65ms
 [34mDTS[39m Build start
 [34mDTS[39m Build start
-[32mDTS[39m ⚡️ Build success in 3660ms
-[32mDTS[39m [1mdist/index.d.ts  [22m[32m11.00 KB[39m
-[32mDTS[39m [1mdist/index.d.mts [22m[32m11.00 KB[39m
-[32mDTS[39m ⚡️ Build success in 3658ms
+[32mDTS[39m ⚡️ Build success in 3320ms
 [32mDTS[39m [1minternal/dist/index.d.ts  [22m[32m7.85 KB[39m
 [32mDTS[39m [1minternal/dist/index.d.mts [22m[32m7.85 KB[39m
+[32mDTS[39m ⚡️ Build success in 3775ms
+[32mDTS[39m [1mdist/index.d.ts  [22m[32m11.00 KB[39m
+[32mDTS[39m [1mdist/index.d.mts [22m[32m11.00 KB[39m

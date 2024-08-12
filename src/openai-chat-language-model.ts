@@ -342,7 +342,7 @@ export class OpenAIChatLanguageModel implements LanguageModelV1 {
 
     const { useLegacyFunctionCalling } = this.settings;
 
-    return {
+    const result = {
       stream: response.pipeThrough(
         new TransformStream<
           ParseResult<z.infer<typeof openaiChatChunkSchema>>,
@@ -526,6 +526,8 @@ export class OpenAIChatLanguageModel implements LanguageModelV1 {
       rawResponse: { headers: responseHeaders },
       warnings,
     };
+    console.log('😁',JSON.stringify(result));
+    return result;
   }
 }
 

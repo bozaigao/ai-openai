@@ -422,7 +422,7 @@ var OpenAIChatLanguageModel = class {
     };
     let logprobs;
     const { useLegacyFunctionCalling } = this.settings;
-    return {
+    const result = {
       stream: response.pipeThrough(
         new TransformStream({
           transform(chunk, controller) {
@@ -559,6 +559,8 @@ var OpenAIChatLanguageModel = class {
       rawResponse: { headers: responseHeaders },
       warnings
     };
+    console.log("\u{1F601}", JSON.stringify(result));
+    return result;
   }
 };
 var openAIChatResponseSchema = import_zod2.z.object({
